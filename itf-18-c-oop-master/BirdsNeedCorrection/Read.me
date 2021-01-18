@@ -1,0 +1,16 @@
+﻿Das Interface 'Bird' stellt die Methoden 'fly()' und 'makeSound()' bereit.
+Das Interface 'ToyDuck' stellt die Methode 'squeak()' bereit.
+
+Nun soll eine Instanz, die normalerweise 'Toyduck' implementieren würde, in der Lage sein, eine Methode von 'Bird' zu nutzen.
+Anstatt "Squeak" soll nun wie 'Sparrow' "Chirp Chirp" ausgegeben werden, wenn 'squeak()' aufgerufen wird.
+
+Vervollständige dazu das Interface 'BirdAdapter', das ToyDuck erweitert und starte 'Program', um zu überprüfen,
+ob durch den Aufruf von 'squeak()' "Chirp Chirp" ausgegeben wird.
+
+
+
+Tipps
+
+- 'BirdAdapter' erbt von 'ToyDuck', hat also schon eine 'squeak()' Methode
+- Sucht nach der Methode, die "Chirp Chirp" ausgibt und überlegt, wie ihr sie in 'BirdAdapter' einbaut
+- Evtl. muss dafür auch außerhalb von 'BirdAdapter' etwas geändert werden

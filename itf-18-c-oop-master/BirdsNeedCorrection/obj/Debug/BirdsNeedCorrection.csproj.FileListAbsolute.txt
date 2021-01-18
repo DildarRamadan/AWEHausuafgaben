@@ -1,0 +1,14 @@
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.exe.config
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.exe
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.pdb
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.csprojAssemblyReference.cache
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.csproj.CoreCompileInputs.cache
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.exe
+C:\Users\Vuko\Desktop\Adapter Pattern\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.pdb
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.exe.config
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.exe
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\bin\Debug\BirdsNeedCorrection.pdb
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.csprojAssemblyReference.cache
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.csproj.CoreCompileInputs.cache
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.exe
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\BirdsNeedCorrection\obj\Debug\BirdsNeedCorrection.pdb

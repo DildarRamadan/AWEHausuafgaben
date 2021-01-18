@@ -1,0 +1,7 @@
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\bin\Debug\AdapterPattern.exe.config
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\bin\Debug\AdapterPattern.exe
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\bin\Debug\AdapterPattern.pdb
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\obj\Debug\AdapterPattern.csprojAssemblyReference.cache
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\obj\Debug\AdapterPattern.csproj.CoreCompileInputs.cache
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\obj\Debug\AdapterPattern.exe
+E:\Users\Dildar Ramadan\Documents\AWEHausuafgaben\itf-18-c-oop-master\AdapterPattern\obj\Debug\AdapterPattern.pdb
