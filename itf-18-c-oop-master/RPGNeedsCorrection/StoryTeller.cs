@@ -63,6 +63,12 @@ namespace RPGNeedsCorrection
                 Task.Delay(1000).Wait();
             }
 
+            //check for Healing some Radome Dude with some Randome Dude. It is possible that the Caster is the same Target
+            var caster = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+            var target = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+
+            caster.Heal(target);
+
             // Check how many survived
             if (lxStoryParticipants.Count() == 1)
             {

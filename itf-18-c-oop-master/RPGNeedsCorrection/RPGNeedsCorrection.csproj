@@ -46,6 +46,7 @@
     <Compile Include="Adaptee.cs" />
     <Compile Include="Adapter.cs" />
     <Compile Include="FiryBoi.cs" />
+    <Compile Include="HealerTobias.cs" />
     <Compile Include="Magus.cs" />
     <Compile Include="Olaf.cs" />
     <Compile Include="Program.cs" />

@@ -11,6 +11,7 @@ namespace RPGNeedsCorrection
             lxHumans.Add(new Magus());
             lxHumans.Add(new Waldo());
             lxHumans.Add(new FiryBoi());
+            lxHumans.Add(new HealerTobias());
 
             StoryTeller xTeller = new StoryTeller(lxHumans);
             xTeller.StartStory();
