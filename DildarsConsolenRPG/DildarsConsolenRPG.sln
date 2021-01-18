@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DildarsConsolenRPG", "DildarsConsolenRPG\DildarsConsolenRPG.csproj", "{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPater", "AdapterPater\AdapterPater.csproj", "{C3F37315-48BB-42D6-B56C-4C3AF180AECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F37315-48BB-42D6-B56C-4C3AF180AECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F37315-48BB-42D6-B56C-4C3AF180AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F37315-48BB-42D6-B56C-4C3AF180AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F37315-48BB-42D6-B56C-4C3AF180AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E77E9ADB-9ECF-4B68-BAED-CEE7B3EF3F07}
+	EndGlobalSection
+EndGlobal

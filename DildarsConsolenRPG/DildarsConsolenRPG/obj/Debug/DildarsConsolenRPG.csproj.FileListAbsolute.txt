@@ -1,0 +1,7 @@
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\bin\Debug\DildarsConsolenRPG.exe.config
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\bin\Debug\DildarsConsolenRPG.exe
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\bin\Debug\DildarsConsolenRPG.pdb
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\obj\Debug\DildarsConsolenRPG.csprojAssemblyReference.cache
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\obj\Debug\DildarsConsolenRPG.csproj.CoreCompileInputs.cache
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\obj\Debug\DildarsConsolenRPG.exe
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\DildarsConsolenRPG\obj\Debug\DildarsConsolenRPG.pdb

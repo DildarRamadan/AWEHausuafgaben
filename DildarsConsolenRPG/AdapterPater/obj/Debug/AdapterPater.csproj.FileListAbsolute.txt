@@ -1,0 +1,7 @@
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\bin\Debug\AdapterPater.exe.config
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\bin\Debug\AdapterPater.exe
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\bin\Debug\AdapterPater.pdb
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\obj\Debug\AdapterPater.csprojAssemblyReference.cache
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\obj\Debug\AdapterPater.csproj.CoreCompileInputs.cache
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\obj\Debug\AdapterPater.exe
+E:\Users\Dildar Ramadan\Desktop\DildarsConsolenRPG\AdapterPater\obj\Debug\AdapterPater.pdb

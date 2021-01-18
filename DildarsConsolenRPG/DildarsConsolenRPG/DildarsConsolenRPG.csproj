@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3139746A-2DE6-4E35-A643-C5ACB0DF53A2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DildarsConsolenRPG</RootNamespace>
+    <AssemblyName>DildarsConsolenRPG</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Klassen\MageTypes.cs" />
+    <Compile Include="Interfaces\IDrache.cs" />
+    <Compile Include="Interfaces\IFightChar.cs" />
+    <Compile Include="Interfaces\ISkill.cs" />
+    <Compile Include="Interfaces\IMage.cs" />
+    <Compile Include="Klassen\CharacterErstellService.cs" />
+    <Compile Include="Klassen\Dragon.cs" />
+    <Compile Include="Klassen\DragonSpells\FireBreathing.cs" />
+    <Compile Include="Klassen\DragonSpells\IceBreathing.cs" />
+    <Compile Include="Klassen\DragonSpells\ThunderBreathing.cs" />
+    <Compile Include="Klassen\helper\CastResponse.cs" />
+    <Compile Include="Klassen\DragonTypes.cs" />
+    <Compile Include="Klassen\Mage.cs" />
+    <Compile Include="Klassen\MageSpells\FireBall.cs" />
+    <Compile Include="Klassen\MageSpells\IceStrike.cs" />
+    <Compile Include="Klassen\MageSpells\ThunderStrike.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clients\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
