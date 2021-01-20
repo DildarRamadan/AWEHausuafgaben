@@ -45,7 +45,7 @@ namespace RPGNeedsCorrection
                 // Remove the corpses from the battlefield
                 for (int i = lxStoryParticipants.Count() - 1; i >= 0; i--)
                 {
-                    if (lxStoryParticipants[i].IsDead)
+                    if (lxStoryParticipants[i].HP <=0)
                     {
                         lxStoryParticipants.Remove(lxStoryParticipants[i]);
                     }
@@ -58,25 +58,27 @@ namespace RPGNeedsCorrection
                 }
 
                 iRounds++;
-                
+
+                //check for Healing some Radome Dude with some Randome Dude. It is possible that the Caster is the same Target
+                var caster = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+                var target = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+
+                caster.Heal(target);
+
                 // Wait for the next round
-                Task.Delay(1000).Wait();
+                Task.Delay(1).Wait();
             }
 
-            //check for Healing some Radome Dude with some Randome Dude. It is possible that the Caster is the same Target
-            var caster = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
-            var target = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
 
-            caster.Heal(target);
 
             // Check how many survived
             if (lxStoryParticipants.Count() == 1)
             {
-                if (lxStoryParticipants[0].IsType() == typeof(FiryBoi))
+                if (lxStoryParticipants[0].GetType() == typeof(FiryBoi))
                 {
                     Console.WriteLine("Well the firy boi won.");
                 }
-                else if (lxStoryParticipants[0].IsType() == typeof(Magus))
+                else if (lxStoryParticipants[0].GetType() == typeof(Magus))
                 {
                     Console.WriteLine("At least one of them made it out of the cave alife. It wasnt Waldo tho.");
                 }
