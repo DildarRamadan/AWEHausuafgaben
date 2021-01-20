@@ -7,11 +7,11 @@ namespace RPGNeedsCorrection
     {
         private static void Main(string[] args)
         {
-            List<Adaptee> lxHumans = new List<Adaptee>();
-            lxHumans.Add(new Magus());
-            lxHumans.Add(new Waldo());
-            lxHumans.Add(new FiryBoi());
-            lxHumans.Add(new HealerTobias());
+            List<Target> lxHumans = new List<Target>();
+            lxHumans.Add( new Adapter(new Magus()));
+            lxHumans.Add(new Adapter(new Waldo()));
+            lxHumans.Add(new Adapter(new FiryBoi()));
+            lxHumans.Add(new Adapter(new HealerTobias()));
 
             StoryTeller xTeller = new StoryTeller(lxHumans);
             xTeller.StartStory();
