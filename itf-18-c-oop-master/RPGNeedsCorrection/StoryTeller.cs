@@ -7,9 +7,9 @@ namespace RPGNeedsCorrection
 {
     internal class StoryTeller
     {
-        private List<Adaptee> lxStoryParticipants = new List<Adaptee>();
+        private List<Target> lxStoryParticipants = new List<Target>();
 
-        internal StoryTeller(List<Adaptee> lxHumans)
+        internal StoryTeller(List<Target> lxHumans)
         {
             this.lxStoryParticipants = lxHumans;
         }
@@ -45,7 +45,7 @@ namespace RPGNeedsCorrection
                 // Remove the corpses from the battlefield
                 for (int i = lxStoryParticipants.Count() - 1; i >= 0; i--)
                 {
-                    if (lxStoryParticipants[i].HP <=0)
+                    if (lxStoryParticipants[i].IsDead)
                     {
                         lxStoryParticipants.Remove(lxStoryParticipants[i]);
                     }
@@ -60,10 +60,10 @@ namespace RPGNeedsCorrection
                 iRounds++;
 
                 //check for Healing some Radome Dude with some Randome Dude. It is possible that the Caster is the same Target
-                var caster = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
-                var target = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+                //var caster = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
+                //var target = lxStoryParticipants[xRND.Next(0, lxStoryParticipants.Count)];
 
-                caster.Heal(target);
+                //caster.Heal(target);
 
                 // Wait for the next round
                 Task.Delay(1).Wait();
